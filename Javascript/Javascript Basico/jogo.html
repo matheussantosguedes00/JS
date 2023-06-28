@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+</head>
+<style>
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<h1>Jogo da Velha</h1>
+<table id="board">
+  <tr>
+    <td onclick="ticTacToe(0, 0)"></td>
+    <td onclick="ticTacToe(0, 1)"></td>
+    <td onclick="ticTacToe(0, 2)"></td>
+  </tr>
+  <tr>
+    <td onclick="ticTacToe(1, 0)"></td>
+    <td onclick="ticTacToe(1, 1)"></td>
+    <td onclick="ticTacToe(1, 2)"></td>
+  </tr>
+  <tr>
+    <td onclick="ticTacToe(2, 0)"></td>
+    <td onclick="ticTacToe(2, 1)"></td>
+    <td onclick="ticTacToe(2, 2)"></td>
+  </tr>
+</table>
+
+  <script src="main.js"></script> 
+
+</body>
+</html>
